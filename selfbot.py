@@ -21,6 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 '''
+[requires]
+python_version = "2.7"
 
 import discord
 from discord.ext import commands
@@ -40,6 +42,7 @@ import re
 import textwrap
 from PIL import Image
 import io
+
 
 class Selfbot(commands.Bot):
     '''
